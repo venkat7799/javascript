@@ -10,7 +10,7 @@ public class JavaScriptExecutorUtil {
 		
 		JavascriptExecutor js =  ((JavascriptExecutor) driver);
 		String bgcolor = element.getCssValue("backgroundColor");
-		System.out.print(bgcolor);
+		
 		for( int i=0;i<500;i++) {
 			changecolor("#000000", element, driver);
 			changecolor(bgcolor , element , driver);
