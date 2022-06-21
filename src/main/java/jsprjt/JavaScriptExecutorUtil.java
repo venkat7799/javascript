@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class JavaScriptExecutorUtil {
 
 	public static void flash(WebElement element , WebDriver driver) {
-		int test = 0;
+		int test = 3;
 		JavascriptExecutor js =  ((JavascriptExecutor) driver);
 		String bgcolor = element.getCssValue("backgroundColor");
 		
